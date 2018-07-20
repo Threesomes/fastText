@@ -1,4 +1,5 @@
 将一二级标签看作多标签问题，同时预测两个标签，有利于处理某一级标签空缺的问题，当一二级标签都为空时，设定为其它类。
+
 data: `fasttext_0.7861_20180720/data`(jieba分词，没有stopwords和其他预处理) ; `training:valid=8:2`
     
 training:  
